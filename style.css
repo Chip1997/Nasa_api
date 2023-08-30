@@ -1,0 +1,13 @@
+.centered-image {
+    display: block;
+    margin: 0 auto;
+}
+
+.result-item {
+    margin-bottom: 20px;
+}
+
+#result button {
+    display: block;
+    margin: 20px auto;
+}
