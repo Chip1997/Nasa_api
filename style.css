@@ -1,12 +1,29 @@
-.container{
+@font-face {
+    font-family: styleKbron;
+    src: url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@1,400;1,700&display=swap');
+}
+
+.container {
+    font: 'styleKbron';
+}
+
+.container h1 {
+    font: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
     background-color: rgb(22, 22, 22, 0.8);
     color: #fff;
     margin: 5% 5%;
     padding: 1% 1%;
 }
-*{
+
+* {
     font-family: Poppins;
 }
+
 body {
     background-image: url("https: //images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80");
     background-size: cover;
@@ -14,9 +31,11 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 .centered-image {
     margin: 0 auto;
 }
+
 #result button {
     display: block;
     margin: 20px auto;
@@ -24,22 +43,31 @@ body {
 
 .result-item {
     margin-bottom: 20px;
-    background-color: rgba(24, 11, 11, 0.5); /* Fondo semitransparente */
-    border-radius: 10px; /* Borde redondeado */
-    padding: 10px; /* Espacio interno */
-    position: relative; /* Para el posicionamiento relativo */
+    background-color: rgba(24, 11, 11, 0.5);
+    /* Fondo semitransparente */
+    border-radius: 10px;
+    /* Borde redondeado */
+    padding: 10px;
+    /* Espacio interno */
+    position: relative;
+    /* Para el posicionamiento relativo */
 }
 
 .result-item img {
     display: block;
     margin: 0 auto;
-    border-radius: 10px; /* Borde redondeado para la imagen */
+    border-radius: 10px;
+    /* Borde redondeado para la imagen */
 }
+
 .result-item h3,
 .result-item p {
-    text-align: center; /* Centrar el texto */
-    color: white; /* Color del texto */
+    text-align: center;
+    /* Centrar el texto */
+    color: white;
+    /* Color del texto */
 }
+
 .result-item h3 {
     margin-top: 10px;
 }
@@ -47,9 +75,11 @@ body {
 .result-item p {
     margin-top: 5px;
 }
+
 .title {
     text-align: center;
 }
+
 .contenedor {
     display: flex;
     justify-content: center;
@@ -59,7 +89,7 @@ body {
     position: absolute;
     top: 70%;
     left: 50%;
-    transform:  translateX(-50%);
+    transform: translateX(-50%);
 }
 
 .contenedor img {
